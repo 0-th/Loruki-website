@@ -33,6 +33,49 @@
     transform: scale(0.98);
 }
 
+/*Background and colored buttons*/
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #ffffff;
+}
+
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333333;
+}
+
+/*Text-sizes*/
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -138,5 +181,3 @@
 .p-5 {
     margin: 4rem;
 }
-
-
